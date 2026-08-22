@@ -1,0 +1,6 @@
+I really liked the modularity of all the systems! I spent way too much just thinking how to make them, how their connections would look like, and how the Actors and the world would interact with them altogether.
+
+With more time I would like to try making a graph editor of some sort in order to make the Dialogue flow visualization and editing way more easier, right now is too tedious unfortunately.
+
+I know the systems could get even more tweaking, specially the Interactions are the ones that could be pushed even further...for example, the InteractionComponent attached to interactables should be an ActorComponent isntead of a WidgetComponent, and the System could create a single WidgetComponent that could be passed between different Interactable depending on their state. Also the dilemma between an Interface and an ActorTag for querying interactables, a trade between having all structured tightly in code V.S. modularity for BPs. Also my UI ability is almost zero, I know it can be optimized to the bone...but I don't know how to do that and honestly I don't want to get deep into it T_T
+
